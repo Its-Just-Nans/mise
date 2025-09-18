@@ -170,7 +170,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build-tarball]
     timeout-minutes: 10
-    container: ghcr.io/jdx/mise:rpm
+    container: ghcr.io/jdx/mise:rpm@sha256:2a741d27248ac054483ee68389eb3994ee4248c6a14aeec02523d4a33bdf4267
     steps:
       - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
       - uses: crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec # v6
@@ -193,7 +193,7 @@ jobs:
   deb:
     runs-on: ubuntu-latest
     needs: [build-tarball]
-    container: ghcr.io/jdx/mise:deb
+    container: ghcr.io/jdx/mise:deb@sha256:99d828c9172c120f398ff9ef94e9093dbd77a071fd383aef2fd67a8fe5df7b41
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
