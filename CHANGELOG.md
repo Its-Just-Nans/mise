@@ -1,5 +1,32 @@
 # Changelog
 
+## [2025.9.13](https://github.com/jdx/mise/compare/v2025.9.12..v2025.9.13) - 2025-09-19
+
+### 📦 Registry
+
+- remove deprecated virtualos by @jdx in [166379f](https://github.com/jdx/mise/commit/166379f71c79fccacfc980dd14d4e18642c7d1e5)
+- add trufflehog ([aqua:trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)) by @risu729 in [#6316](https://github.com/jdx/mise/pull/6316)
+
+### 🚀 Features
+
+- **(docs)** improve search result readability with lighter teal background by @jdx in [#6328](https://github.com/jdx/mise/pull/6328)
+- **(ui)** update logo as favicon and fix hover transitions by @jdx in [#6325](https://github.com/jdx/mise/pull/6325)
+
+### 🐛 Bug Fixes
+
+- **(github)** correctly paginate releases/tags for private repos by @malept in [#6318](https://github.com/jdx/mise/pull/6318)
+- **(hk)** exclude aqua-registry from prettier linting by @jdx in [#6327](https://github.com/jdx/mise/pull/6327)
+- **(ui)** improve GitHub star badge layout and alignment by @jdx in [#6326](https://github.com/jdx/mise/pull/6326)
+
+### 📚 Documentation
+
+- change 'hello.py' to 'main.py' in python.md by @my1e5 in [#6319](https://github.com/jdx/mise/pull/6319)
+- customize VitePress theme with unique branding by @jdx in [#6324](https://github.com/jdx/mise/pull/6324)
+
+### New Contributors
+
+- @my1e5 made their first contribution in [#6319](https://github.com/jdx/mise/pull/6319)
+
 ## [2025.9.12](https://github.com/jdx/mise/compare/v2025.9.11..v2025.9.12) - 2025-09-16
 
 ### 🐛 Bug Fixes
